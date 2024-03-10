@@ -1,0 +1,135 @@
+.header{
+    width: 100%;
+    height: 30px;
+    background: rgb(220, 2, 2);
+    line-height: 30px;
+    color: white;
+}
+
+.content{
+    width: 100%;
+    height: calc(100% - 50px);
+    background: white;
+}
+
+.footer{
+    width: 100%;
+    height: 20px;
+    background: rgb(220,2,2);
+    color: white;
+    font-size: 7pt;
+    line-height: 20px;
+    text-align: center;
+}
+
+.menubar{
+    width: 196px;
+    padding: 2px;
+    height: calc(100% - 4px);
+    background: whitesmoke;
+    float: left;
+}
+
+.outlet{
+    width: calc(100% - 200px);
+    height: 100%;
+    float: left;
+}
+
+.menuheader{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    background: rgb(220, 2, 2);
+}
+
+.menuheader img{
+    height: 16px;
+    float: left;
+    padding-left: 5px;
+    margin-top: 6px;
+    cursor: pointer;
+}
+
+.menuheader label{
+    color: white;
+    font-weight: bold;
+    float: left;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.menu
+{
+    width: 100%;
+    height: calc(100% - 30px);
+    overflow: auto;
+}
+
+.mlist{
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.mlist li label{
+    display: block;
+    padding: 8px 5px;
+    cursor: pointer;
+    background: #BAC6DA;
+    border-top: 2px solid white;
+}
+
+.mlist li label:hover{
+    background: #B6DFE3;
+}
+
+.mlist li div{
+    display: none;
+    width: 100%;
+}
+
+.mlist li div label{
+    display: block;
+    padding: 8px 5px;
+    cursor: pointer;
+    background: #E9EEF3;
+    border-top: 2px solid white;
+}
+.outer-box {
+    width: 60%; /* Adjust the width as needed */
+    height: 300px; /* Adjust the height as needed */
+    border: 2px solid #000;
+    position: relative;
+    margin-left: 5px;
+    padding: 10px; /* Added padding for better spacing */
+
+
+}
+.btn1{
+    width:100px;
+}
+
+/* Optional: If you want the input fields to appear in a row */
+.outer-box.flex-row {
+    flex-direction: row;
+}
+.outlet {
+    width: calc(100% - 200px);
+    height: 100%;
+    float: left;
+}
+
+.txtbox4 {
+    width: calc(80% - 0px); /* Adjust the width as needed, subtracting margin */
+    height: 30px; /* Adjust the height as needed */
+    margin-left: 5px; /* Add margin to create space between the input fields */
+    box-sizing: border-box; /* Include padding and border in the width calculation */
+    
+    
+}
+.footer{
+    height:400px;
+}
+
